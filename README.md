@@ -1,6 +1,14 @@
-# customslider
+# case3
 
-A new Flutter project.
+## material
+![sport](./assets/sport.png)
+
+## demo image:
+
+<img src="./assets/1.png" width=300>
+
+<img src="./assets/2.png" width=300>
+
 
 ## Getting Started
 

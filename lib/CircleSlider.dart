@@ -27,7 +27,9 @@ class _CircleSliderState extends State<CircleSlider> {
                color: Colors.white,
                highlightElevation: 0,
                elevation: 0,
-               onPressed: (){},
+               onPressed: (){
+                 Navigator.of(context).pushNamed('detail');
+               },
                shape: CircleBorder(),
                child: Column(
                  mainAxisAlignment: MainAxisAlignment.center,

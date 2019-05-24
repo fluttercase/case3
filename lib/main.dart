@@ -89,9 +89,9 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
         controller: _pageCtrl,
         children: <Widget>[
           HomePage(),
-          Text('sd'),
-          Text('sd'),
-          Text('sd'),
+          Center(child: Text('page 2'),),
+          Center(child: Text('page 3'),),
+          Center(child: Text('page 4'),),
         ],
       ),
       bottomNavigationBar: BottomNavigationBar(
@@ -118,6 +118,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
             
           });
           print('object: $_pageCtrl');
+          _pageCtrl.jumpToPage(index);
         },
       )
     );
